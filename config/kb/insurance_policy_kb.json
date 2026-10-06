@@ -1,0 +1,98 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Insurer's duty to explain policy terms before contract formation",
+    "policy_type": "general",
+    "source": "Insurance Business Act, Article 294 overview note",
+    "tags": ["disclosure", "explanation", "duty", "contract", "onboarding"],
+    "content": "Before a policy is formed, the insurer (or its agent) must clearly explain the key contract terms to the applicant: the covered risks, the main exclusions, the premium and payment schedule, the cooling-off cancellation right, and how to file a claim. The explanation must be in plain, non-technical language appropriate to the applicant's understanding, and important limitations (waiting periods, exclusions, non-renewal conditions) must be highlighted rather than buried in fine print."
+  },
+  {
+    "id": "kb-002",
+    "title": "Hospitalization rider - coverage scope",
+    "policy_type": "health",
+    "source": "Standard hospitalization rider terms, product summary",
+    "tags": ["coverage", "hospitalization", "rider", "health", "inpatient"],
+    "content": "The hospitalization rider pays a daily benefit for each day the insured is admitted as an inpatient for medically necessary treatment, starting from the first day of admission, up to the policy's maximum benefit days per admission and per policy year. Coverage applies to admissions at a licensed hospital or clinic. Day-surgery and outpatient treatment are covered separately under the surgical benefit rider, not this hospitalization benefit."
+  },
+  {
+    "id": "kb-003",
+    "title": "Common exclusions - pre-existing conditions and self-inflicted injury",
+    "policy_type": "health",
+    "source": "Policy exclusions clause, standard health rider",
+    "tags": ["exclusion", "pre-existing", "self-inflicted", "health", "limitation"],
+    "content": "The policy does not pay benefits for: (1) a condition diagnosed or treated within a defined look-back period before the policy's effective date, unless disclosed and accepted at underwriting; (2) injury or illness resulting from a self-inflicted act, including attempted suicide, regardless of the insured's mental state at the time; (3) treatment received outside a licensed medical facility; and (4) cosmetic or elective procedures not medically necessary. Waiting-period and pre-existing-condition exclusions are distinct - see the waiting period entry for the initial coverage delay."
+  },
+  {
+    "id": "kb-004",
+    "title": "Waiting period before coverage becomes effective",
+    "policy_type": "health",
+    "source": "Standard policy provisions, waiting period clause",
+    "tags": ["waiting period", "effective date", "coverage", "health", "limitation"],
+    "content": "Most health and hospitalization riders carry a waiting period - typically 30 days for illness claims and 90-180 days for specified conditions (e.g. certain cancers, cardiovascular disease) - measured from the policy's effective date. Claims arising from an illness first diagnosed during the waiting period are not payable, even if the diagnosis is confirmed after the waiting period ends. Accidental injury claims are generally not subject to the waiting period."
+  },
+  {
+    "id": "kb-005",
+    "title": "Claim filing conditions and required documentation",
+    "policy_type": "general",
+    "source": "Claims procedure guide, standard policy provisions",
+    "tags": ["claim", "filing", "documentation", "deadline", "procedure"],
+    "content": "A claim must be notified to the insurer within the policy's notification window (commonly 30 days from the date of the insured event) and the formal claim, with supporting documents, must be submitted within the claim filing deadline (commonly 3 years from the date the right to claim arises, per the statutory limitation period). Required documents typically include: the claim form, a medical certificate or diagnosis report, itemized medical bills or receipts, and identity verification. Late notification does not automatically void the claim if there was reasonable cause and the delay did not prejudice the insurer's ability to investigate."
+  },
+  {
+    "id": "kb-006",
+    "title": "Dread disease rider - covered conditions and payout structure",
+    "policy_type": "life",
+    "source": "Dread disease (critical illness) rider terms",
+    "tags": ["rider", "critical illness", "dread disease", "life", "lump sum"],
+    "content": "The dread disease rider pays a one-time lump-sum benefit on first diagnosis of a covered critical illness (commonly cancer, acute myocardial infarction, stroke, and a defined list of other severe conditions), subject to the rider's own waiting period and diagnostic criteria (e.g. a cancer diagnosis must meet a specified staging severity for certain cancer types). Once the lump-sum benefit is paid, the rider terminates; it does not pay repeat benefits for the same or a related condition unless the policy explicitly includes a multi-claim / recurrence benefit."
+  },
+  {
+    "id": "kb-007",
+    "title": "Disability income rider - benefit conditions",
+    "policy_type": "life",
+    "source": "Disability income rider terms, product summary",
+    "tags": ["rider", "disability", "income", "life", "benefit"],
+    "content": "The disability income rider pays a monthly benefit when the insured is certified totally disabled and unable to perform the material duties of their own occupation (own-occupation definition) for a period exceeding the elimination period (commonly 90 or 180 days). After a defined period (e.g. 24 months), the definition of disability may shift to any-occupation, meaning the insured must be unable to perform any occupation reasonably suited to their training and experience for the benefit to continue."
+  },
+  {
+    "id": "kb-008",
+    "title": "Cooling-off cancellation right (cooling-off period)",
+    "policy_type": "general",
+    "source": "Statutory cooling-off provision, standard policy terms",
+    "tags": ["cancellation", "cooling-off", "refund", "disclosure", "general"],
+    "content": "The applicant may cancel the policy within the cooling-off period (commonly 8 calendar days from whichever is later: the date the policy documents are received, or the date the application is submitted) without giving a reason, and receive a full refund of premiums paid, minus any medical exam costs already incurred. The cancellation right does not apply to short-term policies below a defined term length or to certain group / employer-sponsored policies - check the specific policy's cancellation clause."
+  },
+  {
+    "id": "kb-009",
+    "title": "Premium payment grace period and lapse",
+    "policy_type": "general",
+    "source": "Standard policy provisions, premium payment clause",
+    "tags": ["premium", "grace period", "lapse", "reinstatement", "general"],
+    "content": "If a renewal premium is not paid by the due date, the policy remains in force during a grace period (commonly 30 or 31 days), and any claim arising during the grace period is still payable, net of the overdue premium. If payment is not received by the end of the grace period, the policy lapses. A lapsed policy may usually be reinstated within a defined reinstatement window (commonly 2 years), subject to evidence of continued insurability and payment of all overdue premiums with interest; a new waiting period may apply to conditions first showing symptoms after the lapse date."
+  },
+  {
+    "id": "kb-010",
+    "title": "Coordination of benefits with other insurance / public healthcare",
+    "policy_type": "health",
+    "source": "Coordination of benefits clause, standard health rider",
+    "tags": ["coordination of benefits", "duplicate coverage", "health", "public healthcare"],
+    "content": "When the insured holds more than one policy covering the same loss, or is also eligible for public healthcare reimbursement, indemnity-type benefits (e.g. actual-expense hospital reimbursement) are coordinated so total recovery does not exceed actual incurred costs - each insurer pays its proportional share. Fixed-benefit riders (e.g. a per-day hospitalization cash benefit or a critical-illness lump sum) are NOT subject to coordination and are payable in full from every policy that covers the event, since they are not indemnity-based."
+  },
+  {
+    "id": "kb-011",
+    "title": "Advisory disclaimer duties for policy information services",
+    "policy_type": "general",
+    "source": "Industry guidance on customer-facing information services",
+    "tags": ["disclaimer", "advisory", "disclosure", "information"],
+    "content": "Any service that summarises policy terms, coverage, or claim conditions for a customer must carry a clear advisory disclaimer stating the summary is for informational purposes only, does not amend or override the actual policy contract and rider certificate, and that the customer should confirm binding interpretations with the insurer or a licensed agent before making a decision (e.g. filing a claim, cancelling coverage, or relying on the summary to decide against seeking independent advice)."
+  },
+  {
+    "id": "kb-012",
+    "title": "Non-renewal and cancellation by the insurer",
+    "policy_type": "general",
+    "source": "Standard policy provisions, non-renewal clause",
+    "tags": ["cancellation", "non-renewal", "insurer", "notice", "general"],
+    "content": "For renewable term policies, the insurer may decline to renew only on grounds stated in the policy (e.g. non-payment, misrepresentation discovered at claim, or a portfolio-wide underwriting change applied uniformly - not because a specific insured filed a claim, unless the policy explicitly allows individual non-renewal). The insurer must give advance written notice of non-renewal (commonly at least 30 days before the renewal date) so the insured has time to seek replacement coverage."
+  }
+]

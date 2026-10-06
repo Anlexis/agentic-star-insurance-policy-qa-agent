@@ -1,0 +1,30 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+#
+# PolicyQAGraphNode._parent_config() (src/graph/graph.py) also reads this file
+# directly and forwards every block below to the inner DomainWorkflowGraph
+# under config["configurable"], so the declared values are live at runtime in
+# the standalone deployment too.
+
+max_retry: 3
+timeout_s: 30
+
+# Retrieval tuning — republished into inner-graph state by
+# DomainWorkflowGraph._extra_initial_state() as plain scalar fields
+# (retrieval_top_k / retrieval_score_threshold / retrieval_kb_path) that
+# RetrieveNode / RerankFilterNode read per call.
+retrieval:
+  top_k: 4
+  score_threshold: 0.25
+  kb_path: "config/kb/insurance_policy_kb.json"
+  # Reserved for a vector-store upgrade. Inert in this version — the
+  # deterministic keyword retriever in RetrieveNode does not read this key.
+  hybrid_search: false
+
+# LLM settings — this version is deterministic (no live LLM call; see
+# docs/02_design.md "v1 Implementation Note — LLM synthesis"). Forwarded
+# verbatim under config["configurable"]["llm"] for the documented LLM
+# synthesis upgrade seam.
+llm:
+  temperature: 0.0
+  max_tokens: 1500
